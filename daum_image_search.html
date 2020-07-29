@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>이미지찾아오기</title>
+    <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+    <script src="js/daum_image_search.js"></script>
+    <style>
+        .myImage {
+            width : 100px
+        }
+    </style>
+</head>
+<body>
+    <h1>이미지 검색을 하자</h1>
+    <input type="text" id="movie_name"
+           onkeydown="search_image()">
+    <ul>
+        <li><img src="image/inter.jpg" class = "myImage"></li>
+    </ul>
+</body>
+</html>
